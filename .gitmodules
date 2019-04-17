@@ -1,0 +1,3 @@
+[submodule "XorStrEx-Test/XorStrEx"]
+	path = XorStrEx-Test/XorStrEx
+	url = git@github.com:igromanru/XorStrEx.git
