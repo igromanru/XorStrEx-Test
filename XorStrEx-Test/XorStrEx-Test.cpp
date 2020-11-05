@@ -2,6 +2,8 @@
 #include <iostream>
 #include "XorStrEx/XorStrEx.hpp"
 
+const auto GlobalVarTest = _xor_("GlobalVarTest");
+
 int main()
 {
     std::cout << _xor_("test1").c_str() << '\n';
@@ -25,4 +27,6 @@ int main()
 	s4.decrypt();
 	std::cout << strPtr << '\n';
 	s4.encrypt();
+
+	std::cout << GlobalVarTest.str() << '\n';
 }
